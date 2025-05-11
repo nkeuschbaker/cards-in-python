@@ -8,3 +8,13 @@ class Card:
 
     def __eq__(self, other):
         return self.suit == other.suit and self.value == other.value
+
+# Create a new Card object
+card = Card("Hearts", "Ace")
+
+# Print the Card
+print(card)  # Output: Ace of Hearts
+
+# Compare two Card objects
+card2 = Card("Hearts", "Ace")
+print(card == card2)  # Output: True
